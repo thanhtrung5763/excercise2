@@ -1,0 +1,16 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+body{margin-top:20px;
+    background-color: #e4e6e9;
+    color: #41464d;
+}
+@media (min-width: 300px) {
+    .footer-content {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+    }
+}

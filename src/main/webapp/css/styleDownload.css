@@ -1,0 +1,40 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+body{margin-top:20px;
+    background-color: #e4e6e9;
+    color: #41464d;
+}
+@media (min-width: 300px) {
+    .footer-content {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+    }
+}
+.text-green-d1 {
+    color: #277b5d!important;
+}
+.letter-spacing {
+    letter-spacing: .5px!important;
+}
+.font-bolder, .text-600 {
+    font-weight: 600!important;
+}
+.text-purple-d1 {
+    color: #6d62b5!important;
+}
+.text-secondary-d1 {
+    color: #5f718b!important;
+}
+.text-180 {
+    font-size: 1.8em!important;
+}
+.text-150 {
+    font-size: 1.5em!important;
+}
+.bgc-white {
+    background-color: #fff!important;
+}
