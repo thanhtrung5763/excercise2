@@ -33,4 +33,7 @@ table {
 p {
     margin-bottom: 0.5rem;
 }
+.nounderline {
+    text-decoration: none !important
+}
 
